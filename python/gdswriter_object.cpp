@@ -25,7 +25,7 @@ static int gdswriter_object_init(GdsWriterObject* self, PyObject* args, PyObject
     PyObject* pybytes = NULL;
     PyObject* pytimestamp = Py_None;
     tm timestamp = {};
-    uint64_t max_points = 199;
+    uint64_t max_points = 256;
     char* name = NULL;
     double unit = 1e-6;
     double precision = 1e-9;
